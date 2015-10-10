@@ -80,7 +80,6 @@ var Casting = (function() {
    var start = function() {
       htmlbody = $(".news");
       displayNews();
-      alert("done");
 
    };
     

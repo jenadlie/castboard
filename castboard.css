@@ -52,6 +52,23 @@ body {
     font-size: 7vw;
 }
 
+.bigNews {
+    display: flex;
+    align-items: center;
+}
+
+.bigNews .title{
+    font-size: 2.5vw;
+}
+
+.bigNews .summary {
+    font-size: 1.4vw;
+}
+
+.okNews {
+    margin: auto auto;
+}
+
 .news .title {
     text-align: center;
 }
