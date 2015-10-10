@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.todo {
+    height: 100%;
+    border-bottom:1 px solid #0A0A0A;
+    border-top:1 px solid #0A0A0A;
+    border-left:1 px solid #0A0A0A;
+    border-right: 1 px solid #0A0A0A;
+    background-color: #f7f7f7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 7vw;
+}
+
+.weather {
+    height: 35%;
+    border-bottom:3 px solid #0A0A0A;
+    border-top:3 px solid #0A0A0A;
+    border-left:3 px solid #0A0A0A;
+    border-right: 3 px solid #0A0A0A;
+    background-color: #049de3;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+.news {
+    height: 65%;
+    border-bottom:3 px solid #0A0A0A;
+    border-top:3 px solid #0A0A0A;
+    border-left:3 px solid #0A0A0A;
+    border-right: 3 px solid #0A0A0A;
+    background-color: #FF0000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vw;
+}
+
+
+
