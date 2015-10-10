@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    margin: 4px;
 }
 
 .container {
@@ -20,26 +21,21 @@ body {
 
 .todo {
     height: 100%;
-    border-bottom:1 px solid #0A0A0A;
-    border-top:1 px solid #0A0A0A;
-    border-left:1 px solid #0A0A0A;
-    border-right: 1 px solid #0A0A0A;
-    background-color: #f7f7f7;
+    background-color: #303030;
+    margin-right: 3px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 7vw;
+    color: white;
 }
 
 .weather {
     height: 35%;
-    border-bottom:3 px solid #0A0A0A;
-    border-top:3 px solid #0A0A0A;
-    border-left:3 px solid #0A0A0A;
-    border-right: 3 px solid #0A0A0A;
     background-color: #049de3;
+    margin-bottom: 3px;
     
     display: flex;
     align-items: center;
@@ -49,12 +45,7 @@ body {
 
 .news {
     height: 65%;
-    border-bottom:3 px solid #0A0A0A;
-    border-top:3 px solid #0A0A0A;
-    border-left:3 px solid #0A0A0A;
-    border-right: 3 px solid #0A0A0A;
-    background-color: #FF0000;
-
+    background-color: #F2B50F;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,9 +57,7 @@ body {
 }
 
 .newsCol {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+    background-color: #F4BE2A;
 }
 
 .img {
