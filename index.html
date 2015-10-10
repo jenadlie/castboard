@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
     <head>
         <!--JQuery and chromecast lib-->
@@ -11,6 +11,14 @@
         
         <!--Custom styles-->
         <link rel="stylesheet" href="./castboard.css">
+
+        <!--script -->
+        <script type="text/javascript" src="castboard.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                Casting.start();
+            });
+        </script>
     </head>
     <body>
     		<div class="fullHeight col-lg-5">
